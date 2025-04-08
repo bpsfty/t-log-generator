@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: log-generator
-        image: your-dockerhub-username/log-generator:latest
+        image: bhupinderparmar/log-generator:latest
         ports:
         - containerPort: 5000
 ---
